@@ -30,4 +30,31 @@
     ```
 
 # **Практическое задание №2**
+  1. Начнем с установки Streamlit. [Streamlit](https://docs.streamlit.io/) — это библиотека Python с открытым исходным кодом, которая позволяет легко создавать и публиковать  пользовательские веб-приложения для машинного обучения и анализа данных. ``pip install streamlit`` (установится версия 1.12.2)
+ 2. Код в файле mystreamlit.py : 
+ ```python
+import io
+import streamlit as st
+from transformers import pipeline
+
+
+st.title('RU/ENG translation')
+text_from_st = st.text_input('Text from streamlit') #текст который ввел пользователь на страничке в браузере
+
+translator = pipeline("translation_ru_to_en", "Helsinki-NLP/opus-mt-ru-en")
+
+def translate_model(ruText):
+    st.write('Переведенный текст :',translator(ruText)[0]['translation_text'])
+
+translate_model(text_from_st)
+ ```
  
+3. Запускаем приложение mystreamlit.py:
+    ``streamlit run mystreamlit.py``
+    ![Переходим по адрессу](image-4.png)
+4. Вводим текст и получаем результат:
+    ![Скрин работающего веб приложения на хосте](image-5.png)
+    ![Скрин результата работы приложения](image-6.png)
+
+5. Далее киммитим изменения и смотрим git status:
+    ![Alt text](image-7.png)
