@@ -66,8 +66,40 @@ translate_model(text_from_st)
 
 
 
+# **Практическое задание №3**
 
+1. Начнем у становки FastApi ``pip install fastapi`` (установилась версия 0.104.1)
+2. Установим веб-серевер, в котором будет работать приложение, использующее FastAPI. Например Uvicorn: 
+``pip install uvicorn`` (установилась версия 0.24.0.post1)
+3. Создаем файл main.py в котором будет хранится наше FastAPI приложение(перевод с русского на английский). Приложение будет принимать POST запрос от пользователя (пользователь будет отправлять его с помощью утилиты curl в терминале Ubuntu или используя Postman). Код файла:
+```python
+from fastapi import FastAPI
+from transformers import pipeline
+from pydantic import BaseModel
 
+class Item(BaseModel):
+    text:str
+
+app = FastAPI()
+translator = pipeline("translation_ru_to_en", "Helsinki-NLP/opus-mt-ru-en")
+@app.get('/')
+def root():
+    return {'message':'This model translation text'}
+
+@app.post('/translate/')
+def translate(item:Item):
+    return translator(item.text)[0]
+```
+4. Отправим POST используя curl и передадим текст, который должна перевести модель МО:
+```bash
+curl -X 'POST' \
+  'http://127.0.0.1:8000/translate/' \
+  -H 'Content-Type: application/json' \
+  -d '{
+        "text": "Этот текст будет переведен на английский моделью машинного обучения"
+      }'
+
+```
 
 5. Результат запуска unicorn main:app :
    ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/8b069b84-f7ea-490a-9192-560b51c18bf2)
