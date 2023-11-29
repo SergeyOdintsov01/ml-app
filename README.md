@@ -5,7 +5,7 @@
 Реализация задачи перевода текста с русского на английский, а также определение тональности текста решалась при помощи библиотеки [Hugging Face](https://huggingface.co/).
 
 1. Задача перевода текста:
-    + Решалась при помощи готовой модели модели  ["Helsinki-NLP/opus-mt-ru-en"](https://huggingface.co/Helsinki-NLP/opus-mt-ru-en).
+    + Решалась при помощи готовой модели  ["Helsinki-NLP/opus-mt-ru-en"](https://huggingface.co/Helsinki-NLP/opus-mt-ru-en).
     + Содержимое файла translate.py, после запуска и отработки которого мы видим результат работы модели:
     ```python
     from transformers import pipeline
