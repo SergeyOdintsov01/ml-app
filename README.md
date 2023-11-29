@@ -60,5 +60,5 @@ translate_model(text_from_st)
 )
 
 5. Далее киммитим изменения и смотрим git status:
-    ![Alt text](![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/f4d0bc53-eb93-4865-a067-59d4c82b8b4d)
-)
+    ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/0ecf1f78-0058-41ac-afab-91012bfe5b55)
+
