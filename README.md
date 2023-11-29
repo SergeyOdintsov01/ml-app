@@ -4,6 +4,11 @@
 
 Реализация задачи перевода текста с русского на английский, а также определение тональности текста решалась при помощи библиотеки [Hugging Face](https://huggingface.co/).
 
+>>Установка transformers :
+>>```python
+>>   pip install transformers
+>>```
+
 1. Задача перевода текста:
     + Решалась при помощи готовой модели  ["Helsinki-NLP/opus-mt-ru-en"](https://huggingface.co/Helsinki-NLP/opus-mt-ru-en).
     + Содержимое файла translate.py :
@@ -12,7 +17,7 @@
     translator = pipeline("translation_ru_to_en", "Helsinki-NLP/opus-mt-ru-en")
     print(translator("Этот текст должна превести на английский язык модель машинного обучения"))
 
-    ```
+    ``` 
 2. Задача определения тональности текста :
     + Решалась при помощи готовой модели ["blanchefort/rubert-base-cased-sentiment"](https://huggingface.co/blanchefort/rubert-base-cased-sentiment)
     + Содержимое файла santiment.py :
