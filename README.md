@@ -6,7 +6,7 @@
 
 1. Задача перевода текста:
     + Решалась при помощи готовой модели  ["Helsinki-NLP/opus-mt-ru-en"](https://huggingface.co/Helsinki-NLP/opus-mt-ru-en).
-    + Содержимое файла translate.py, после запуска и отработки которого мы видим результат работы модели:
+    + Содержимое файла translate.py :
     ```python
     from transformers import pipeline
     translator = pipeline("translation_ru_to_en", "Helsinki-NLP/opus-mt-ru-en")
@@ -15,7 +15,7 @@
     ```
 2. Задача определения тональности текста :
     + Решалась при помощи готовой модели ["blanchefort/rubert-base-cased-sentiment"](https://huggingface.co/blanchefort/rubert-base-cased-sentiment)
-    + Содержимое файла santiment.py, после запуска и отработки которого мы видим результат работы модели:
+    + Содержимое файла santiment.py :
     ```python
     from transformers import pipeline
     classifier = pipeline("sentiment-analysis", "blanchefort/rubert-base-cased-sentiment")
