@@ -51,13 +51,12 @@ translate_model(text_from_st)
  
 3. Запускаем приложение mystreamlit.py:
     ``streamlit run mystreamlit.py``
-    ![Переходим по адрессу](![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/dbd1d777-29a0-4f7c-ad5d-a004b2196c61)
-)
+      ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/221fec39-c900-437e-a469-ddc1fdd1cb73)
+
 4. Вводим текст и получаем результат:
-    ![Скрин работающего веб приложения на хосте](![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/63238cfa-02cc-41b1-a323-4ee2e753fa11)
-)
-    ![Скрин результата работы приложения](![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/b5ba3a8f-1bca-455d-b629-cb4d04b993b6)
-)
+    ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/3f46e666-6006-4ba5-950b-2fd46df4ba23)
+    ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/513cf7b4-6878-402f-aac7-4b1bf268271e)
+
 
 5. Далее киммитим изменения и смотрим git status:
     ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/0ecf1f78-0058-41ac-afab-91012bfe5b55)
