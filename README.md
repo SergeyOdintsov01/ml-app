@@ -58,6 +58,6 @@ translate_model(text_from_st)
     ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/513cf7b4-6878-402f-aac7-4b1bf268271e)
 
 
-5. Далее киммитим изменения и смотрим git status:
+5. Далее коммитим изменения и смотрим git status:
     ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/0ecf1f78-0058-41ac-afab-91012bfe5b55)
 
