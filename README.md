@@ -61,3 +61,30 @@ translate_model(text_from_st)
 5. Далее коммитим изменения и смотрим git status:
     ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/0ecf1f78-0058-41ac-afab-91012bfe5b55)
 
+
+
+
+
+
+
+
+
+5. Результат запуска unicorn main:app :
+   ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/8b069b84-f7ea-490a-9192-560b51c18bf2)
+   
+   ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/5af56ce0-10e2-4c82-8e23-36c08ef4a5c4)
+   
+   ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/3c9cda66-1ae6-46be-8271-ad1eba1461c7)
+   
+   ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/db4c923e-71b7-4ba3-9883-1ec3e58404c9)
+   
+   ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/f62370f5-2b1c-4f77-aaeb-1bb1a2ba93c9)
+   
+   ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/121e2042-17e2-4980-a115-382c61a97d4c)
+   
+
+
+   
+
+
+
