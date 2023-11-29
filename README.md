@@ -113,6 +113,14 @@ curl -X 'POST' \
    ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/f62370f5-2b1c-4f77-aaeb-1bb1a2ba93c9)
    
    ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/121e2042-17e2-4980-a115-382c61a97d4c)
+
+6. Автоматически сгенерированная документация :
+![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/5c1ec081-652d-407b-ae6b-7276dd0a3c54)
+![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/60266f6b-5123-4b8d-96d3-c559d7ee273d)
+
+7. Делаю коммиты и вывожу git status : 
+
+
    
 
 
