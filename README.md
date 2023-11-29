@@ -4,10 +4,11 @@
 
 Реализация задачи перевода текста с русского на английский, а также определение тональности текста решалась при помощи библиотеки [Hugging Face](https://huggingface.co/).
 
->>Установка transformers :
->>```python
->>   pip install transformers
->>```
+>Установка transformers (версия 4.35.0):
+>```python
+>   pip install transformers
+>```
+
 
 1. Задача перевода текста:
     + Решалась при помощи готовой модели  ["Helsinki-NLP/opus-mt-ru-en"](https://huggingface.co/Helsinki-NLP/opus-mt-ru-en).
