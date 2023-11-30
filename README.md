@@ -136,7 +136,7 @@ curl -X 'POST' \
         + Поключились к нужному репозиторию и готовы запускать
         + ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/2798187a-187d-4622-9505-8746f5bab703)
 
-2. Перед deploy, нужно изменить/дополнить файл ``requirements.txt``:
+2. **Перед deploy, нужно изменить/дополнить файл** ``requirements.txt``:
 ```bash
 tensorflow-cpu
 sentencepiece
