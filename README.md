@@ -151,6 +151,8 @@ streamlit
 
     ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/ae7d94e2-403f-4075-8f39-09b9a329eb42)
 
+4. Ссылка на приложение: ``https://ml-app-674mkvg6jd5ybfatem9vxq.streamlit.app/``
+
 
 
    
