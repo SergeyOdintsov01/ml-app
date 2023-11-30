@@ -146,7 +146,9 @@ uvicorn
 fastapi
 streamlit
 ```
-3. Публикуем приложение translate:
+3. Публикуем приложение ml-app (mystreamlit.py):
+    ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/af70e36a-b4e3-4c05-84d3-0bbce02409b3)
+
     ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/ae7d94e2-403f-4075-8f39-09b9a329eb42)
 
 
