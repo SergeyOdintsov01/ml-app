@@ -118,7 +118,7 @@ curl -X 'POST' \
 ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/5c1ec081-652d-407b-ae6b-7276dd0a3c54)
 ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/60266f6b-5123-4b8d-96d3-c559d7ee273d)
 
-7. Делаю коммиты и вывожу git status : 
+ 
 
 
    
