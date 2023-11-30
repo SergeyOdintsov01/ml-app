@@ -153,15 +153,16 @@ streamlit
     + Регистрируемся
     + Подключаем репозиторий на GitHub
 
-        + <img src="image-14.png" width="300">
-        + <img src="image-15.png" width="300">
+        + ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/941717ff-27f4-4947-ae6d-6b4451955cac)
 
-        + ![Alt text](image-16.png)
-        + ![Alt text](image-17.png)
+        + ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/51fa7a34-048d-4eb3-9222-c0fcf7ae05f0)
+
+        + ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/6dca161b-d5a4-4af8-9004-40d3f3a87776)
+
         + **Видим что репозиторий подключен:**
-        + ![Alt text](image-18.png)
+        + ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/e7739a37-febc-4cca-81bf-c053fd888d76)
         + Поключились к нужному репозиторию и готовы запускать
-        + ![Alt text](image-19.png)
+        + ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/2798187a-187d-4622-9505-8746f5bab703)
 
 2. Перед deploy, нужно изменить/дополнить файл ``requirements.txt``:
 ```bash
@@ -174,7 +175,8 @@ fastapi
 streamlit
 ```
 3. Публикуем приложение translate:
-    ![Alt text](image-20.png)
+    ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/ae7d94e2-403f-4075-8f39-09b9a329eb42)
+
 
 
    
