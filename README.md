@@ -118,6 +118,35 @@ curl -X 'POST' \
 ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/5c1ec081-652d-407b-ae6b-7276dd0a3c54)
 ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/60266f6b-5123-4b8d-96d3-c559d7ee273d)
 
+# **Практическое задание №4**
+1. Переходим на страничку [Streamlit](https://streamlit.io/cloud)
+    + Cloud
+    + Регистрируемся
+    + Подключаем репозиторий на GitHub
+
+        + <img src="image-14.png" width="300">
+        + <img src="image-15.png" width="300">
+
+        + ![Alt text](image-16.png)
+        + ![Alt text](image-17.png)
+        + **Видим что репозиторий подключен:**
+        + ![Alt text](image-18.png)
+        + Поключились к нужному репозиторию и готовы запускать
+        + ![Alt text](image-19.png)
+
+2. Перед deploy, нужно изменить/дополнить файл ``requirements.txt``:
+```bash
+tensorflow-cpu
+sentencepiece
+transformers
+streamlit
+uvicorn
+fastapi
+streamlit
+```
+3. Публикуем приложение translate:
+    ![Alt text](image-20.png)
+
  
 
 
