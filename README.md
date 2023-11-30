@@ -147,7 +147,34 @@ streamlit
 3. Публикуем приложение translate:
     ![Alt text](image-20.png)
 
- 
+ # **Практическое задание №4**
+1. Переходим на страничку [Streamlit](https://streamlit.io/cloud)
+    + Cloud
+    + Регистрируемся
+    + Подключаем репозиторий на GitHub
+
+        + <img src="image-14.png" width="300">
+        + <img src="image-15.png" width="300">
+
+        + ![Alt text](image-16.png)
+        + ![Alt text](image-17.png)
+        + **Видим что репозиторий подключен:**
+        + ![Alt text](image-18.png)
+        + Поключились к нужному репозиторию и готовы запускать
+        + ![Alt text](image-19.png)
+
+2. Перед deploy, нужно изменить/дополнить файл ``requirements.txt``:
+```bash
+tensorflow-cpu
+sentencepiece
+transformers
+streamlit
+uvicorn
+fastapi
+streamlit
+```
+3. Публикуем приложение translate:
+    ![Alt text](image-20.png)
 
 
    
