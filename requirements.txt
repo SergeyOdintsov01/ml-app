@@ -1,3 +1,5 @@
+tensorflow-cpu
+sentencepiece
 transformers
 streamlit
 uvicorn
