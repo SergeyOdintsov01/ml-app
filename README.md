@@ -154,11 +154,5 @@ streamlit
 4. Ссылка на приложение: ``https://ml-app-674mkvg6jd5ybfatem9vxq.streamlit.app/``
 
 
-
-   
-
-
-   
-
-
+# **Практическое задание №5**
 
