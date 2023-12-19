@@ -159,3 +159,17 @@ streamlit
 ```bash
 pip install pytest
 ```
+2. Для корректной работы модулея тестирования, установи предварительно ```pip install httpx```
+3. Добавляем функцию тестирования в файл test_main.py : 
+```python
+from fastapi.testclient import TestClient
+from main import app
+
+client = TestClient(app)
+
+
+def test_read_main():
+    response = client.get("/")
+    assert response.status_code == 200
+    assert response.json() == {"message": "This model translation text"}
+```
