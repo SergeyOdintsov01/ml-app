@@ -174,4 +174,5 @@ def test_read_main():
     assert response.json() == {"message": "This model translation text"}
 ```
 4. Запускаем тест командой ``pytest`` .Результат работы теста:
+![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/6a1165bc-114e-4185-9fe8-7b5a8513076e)
 
