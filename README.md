@@ -175,7 +175,7 @@ def test_read_main():
 ```
 4. Запускаем тест командой ``pytest`` .Результат работы теста:
 ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/6a1165bc-114e-4185-9fe8-7b5a8513076e)
-5. Добаляем вторую функцию test_translate() в файл test_main.py, как раз она и будет проверять то, справляется наша модель с переводом:
+5. Добаляем вторую функцию test_translate() в файл test_main.py, как раз она и будет проверять то, справляется наша модель с переводом и запускаем тестировщик:
 ```python
 def test_translate_text():
     response = client.post("/translate/",
