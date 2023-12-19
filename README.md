@@ -186,4 +186,6 @@ def test_translate_text():
     assert response.status_code == 200
     assert json_data["translation_text"] == "Car"
 ```
+![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/13da85b8-d873-4d06-b490-13073b758efa)
+
 
