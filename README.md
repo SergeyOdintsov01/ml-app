@@ -173,3 +173,5 @@ def test_read_main():
     assert response.status_code == 200
     assert response.json() == {"message": "This model translation text"}
 ```
+4. Запускаем тест командой ``pytest`` .Результат работы теста:
+
