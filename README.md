@@ -189,3 +189,4 @@ def test_translate_text():
 ![image](https://github.com/SergeyOdintsov01/ml-app/assets/149817675/13da85b8-d873-4d06-b490-13073b758efa)
 
 6. Настройка **CI GitHub Actions**
+Добавил в файл requirements библиотеку httpx, после чего тесты прошли без ошибок
