@@ -190,3 +190,4 @@ def test_translate_text():
 
 6. Настройка **CI GitHub Actions**
 Добавил в файл requirements библиотеку httpx, после чего тесты прошли без ошибок
+
