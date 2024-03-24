@@ -6,5 +6,5 @@ uvicorn
 fastapi
 streamlit
 httpx
-tf-keras 
+tf-keras
 flake8
