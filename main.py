@@ -2,17 +2,20 @@ from fastapi import FastAPI
 from transformers import pipeline
 from pydantic import BaseModel
 
+
 class Item(BaseModel):
-    text:str
+    text: str
+
 
 app = FastAPI()
 translator = pipeline("translation_ru_to_en", "Helsinki-NLP/opus-mt-ru-en")
+
+
 @app.get('/')
 def root():
-    return {'message':'This model translation text'}
+    return {'message': 'This model translation text'}
+
 
 @app.post('/translate/')
-def translate(item:Item):
+def translate(item: Item):
     return translator(item.text)[0]
-
-
