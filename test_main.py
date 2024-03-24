@@ -13,8 +13,7 @@ def test_read_main():
 
 # Correct output
 def test_translate_text():
-    response = client.post("/translate/",
-                           json={"text": "Машина"})
+    response = client.post("/translate/", json={"text": "Машина"})
     json_data = response.json()
 
     assert response.status_code == 200
