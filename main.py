@@ -16,6 +16,11 @@ def root():
     return {"message": "This model translation text ru to eng"}
 
 
+@app.get("/model")
+def ml_model():
+    return {"message": "ML model : Helsinki-NLP/opus-mt-ru-en"}
+
+
 @app.post("/translate/")
 def translate(item: Item):
     return translator(item.text)[0]
